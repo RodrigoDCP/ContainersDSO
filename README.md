@@ -35,9 +35,9 @@ AMD Radeon Pro W5500X
 
 ![](Anexos/image01.png)
 
-![](image02.png)
+![](Anexos/image02.png)
 
-![](image03.png)
+![](Anexos/image03.png)
 
 
 ## 2. Docker en MAC
@@ -70,7 +70,7 @@ Para crear la imagen, se utilizo el siguiente comando a partir del ``DockerFile`
 docker build -t bitnami/moodle:5.1 .
 ~~~
 
-![](image04.png)
+![](Anexos/image04.png)
 
 Mismo procedimiento se realiza para la base de datos:
 
@@ -78,7 +78,7 @@ Mismo procedimiento se realiza para la base de datos:
 docker build -t bitnami/mariadb:5.1 .
 ~~~
 
-![](image05.png)
+![](Anexos/image05.png)
 
 Finalmente, utilizando docker compose, podremos levantar los contenedores con las 2 imágenes ya creadas:
 
@@ -86,22 +86,22 @@ Finalmente, utilizando docker compose, podremos levantar los contenedores con la
 docker compose up -d
 ~~~
 
-![](image06.png)
+![](Anexos/image06.png)
 
 ### 2.2. Configuración básica
 ---
 
 Primero se añadió un curso, esto desde las configuraciones de cursos:
 
-![](image07.png)
+![](Anexos/image07.png)
 
 Seguido de eso se agregaron los usuarios con los datos solicitados:
 
-![](image08.png)
+![](Anexos/image08.png)
 
 Finalmente en el curso se realizo la asignación de roles, cumpliendo con el ejemplo del documento:
 
-![](image09.png)
+![](Anexos/image09.png)
 
 
 ## 3. Conclusiones
